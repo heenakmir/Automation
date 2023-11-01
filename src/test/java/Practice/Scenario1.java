@@ -46,9 +46,7 @@ public class Scenario1 {
 		act.moveToElement(img).perform();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//a[text()='Sign Out']")).click();
-		driver.close();
-		
-		
+		driver.close();	
 	}
 
 }
